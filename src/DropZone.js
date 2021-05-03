@@ -170,7 +170,7 @@ function DropZone(props) {
 															style={getItemStyle(snapshot.isDragging, provided.draggableProps.style)}
 														>
 															{isImageLoaded ? (
-																<img src={require(`../assets/${file.name}`).default} alt="" width="200px" height="150px" />
+																<img src={require(`./assets/${file.name}`).default} alt="" width="200px" height="150px" />
 															) : (
 																<RotateLeftIcon />
 															)}

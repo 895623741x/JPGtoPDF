@@ -49,9 +49,9 @@ function DropZone(props) {
 		setUploadedFile(e.target.files);
 
 		setIsUploaded(true);
-		setTimeout(() => {
-			setIsImageLoaded(true);
-		}, 4000);
+		// setTimeout(() => {
+		// 	setIsImageLoaded(true);
+		// }, 4000);
 	};
 
 	// onDragEndHandler
